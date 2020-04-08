@@ -1,0 +1,47 @@
+html {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+
+.navbarlist {
+    list-style: none;
+    max-width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.empty-nav {
+margin-left: auto;
+}
+
+.nav-left {
+padding-right: 3rem;
+}
+
+.nav-right {
+padding-right: 2rem;
+}
+
+.searchbar {
+    width: 40rem;
+    height: 3rem;
+    border-radius: 20px;
+    text-align: left;
+    border-width: 1px;
+    border-color: grey; 
+    color: black;
+}
+
+.google-logo {
+    width: 6rem;
+}
+
+.google-mic {
+    position: relative;
+    right: 6rem;
+
+}
