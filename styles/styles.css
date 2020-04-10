@@ -33,7 +33,6 @@ padding-right: 2rem;
     text-align: left;
     border-width: 1px;
     border-color: grey; 
-    color: black;
 }
 
 .google-logo {
@@ -44,4 +43,51 @@ padding-right: 2rem;
     position: relative;
     right: 6rem;
 
+}
+
+.search-results{
+    position: relative;
+    left: 170px;
+
+
+}
+h1 {
+    font-size: 1.5rem;
+    margin: -10px 0px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.search-item {
+    max-width: 600px;
+    padding-bottom: 10px;
+}
+
+.box-container {
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.link-container {
+width: 450px;
+background: red;
+
+}
+.left {
+padding: 0;
+margin: 0;
+float: left;
+list-style: none;
+
+}
+.right {
+padding:0;
+margin: 0;
+list-style: none;
+float: right;
 }
